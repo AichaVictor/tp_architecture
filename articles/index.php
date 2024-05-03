@@ -7,13 +7,13 @@
 <h2>Les dernières actualités</h2>
 <div id="all">
 	<?php
-	include 'bd.php';
+	// include 'bd.php';
 	$reponse = $bdd->query('SELECT * FROM Article');
 	?>
 
 	<div>
 		<?php foreach ($reponse as $donnee) { ?>
-			<div id="articles">
+			<div class="article">
 				<h3><?= $donnee['titre'] ?></h3>
 				<p><?= $donnee['contenu'] ?></p>
 			</div>
@@ -21,3 +21,5 @@
 	</div>
 
 </div>
+
+<?php include 'footer.php'; ?>

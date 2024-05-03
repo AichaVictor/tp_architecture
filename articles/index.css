@@ -58,7 +58,7 @@ li {
 	margin: auto;
 }
 
-#articles {
+.article {
 	border-radius: 10px;
 	border: 2px solid black;
 	background-color: rgb(134, 134, 134);
@@ -69,17 +69,17 @@ li {
 	padding: 3px;
 }
 
-#articles:hover {
+.article:hover {
 	background-color: white;
 }
 
-#articles p {
+.article p {
 	padding-left: 10px;
 	padding-bottom: 10px;
 
 }
 
-#articles h3 {
+.article h3 {
 	padding-left: 10px;
 	padding-top: 10px;
 }

@@ -1,7 +1,3 @@
-<?php $titre = 'ACTUALITES POLYTECHNICIENNES'; ?>
-
-<?php include("entete.php"); ?>
-
 <h1 id="titre">ACTUALITES POLYTECHNICIENNES</h1>
 <?php
 include 'bd.php';
